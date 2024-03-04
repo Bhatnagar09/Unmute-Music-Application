@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family:Outfit;
+}
+.bigrectangle{
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    left: 250px;
+    top: 80px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 249, 249, 0.251);
+    background-color: rgba(255, 255, 255, 0.088);
+    box-shadow: 8px 8px 20px rgba(255, 255, 255, 0.205);
+    display: flex;
+}
+.bigrectangle .content{
+    width: 45%;
+    height: 600px;
+}
+.bigrectangle .content .loginhead{
+    font-size:xx-large;
+    margin-top:60px;
+    /* margin-left: 150px; */
+    text-align: center;
+    color: #3495D9;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.118);
+    position: absolute;
+    top: 20px;
+    left: 1200px;  
+}
+
+.bigrectangle .singinggirl{
+    width: 55%;
+    height: 600px;
+    /* background-color: blue; */
+}
+.bigrectangle .singinggirl img{
+    width: 430px;
+    height: 480px;
+    border-radius:50px;
+    margin-top: 60px;
+    margin-left: 10px;
+    box-shadow: 4px 4px 15px rgba(255, 255, 255, 0.167);
+}
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(255, 252, 252, 0.064);
+    color: azure;
+}
+.bigrectangle .content .email{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.bigrectangle .content .password{
+    margin-left: 80px;
+    margin-top: 40px;
+
+}
+.bigrectangle .content .forget{
+    margin-left: 270px;
+    margin-top: 20px;
+    font-size:small;
+    /* font-weight: lighter; */
+    color: #3495D9;
+}
+.bigrectangle .content .submit input{
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: #3495D9;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.759);
+    width: 305px;
+}
+.bigrectangle .content .autologin{
+    margin-top: 30px;
+    margin-left: 160px;
+    width: 200px;
+    height: 30px;
+    /* background-color: blueviolet; */
+    display: flex;
+    gap: 30px;
+}
+.bigrectangle .content .autologin img{
+    height: auto;
+    width: 35px;
+}
+.bigrectangle .content .autologin .apple img{
+    width: 27px;
+    height: auto;
+    padding-top: 5px;
+}
+.bigrectangle .content .autologin .google img{
+    width: 27px;
+    height: auto;
+    padding-top: 5px;
+}
+.bigrectangle .content .head {
+    margin: 20px;
+    letter-spacing: 3px;
+    color:rgba(255, 255, 255, 0.678) ;
+}
+.bigrectangle .content .companyname{
+    display: flex;
+}
+
+
+
+
